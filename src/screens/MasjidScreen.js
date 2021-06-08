@@ -1,44 +1,46 @@
-import React, {useState} from 'react';
-import {Text, StyleSheet, Alert, KeyboardAvoidingView} from 'react-native';
-import {TextInput, Button} from 'react-native-paper';
-import firestore from '@react-native-firebase/firestore';
-import {ScrollView} from 'react-native';
+import React, { useState } from 'react'
+import {
+  Text,
+  StyleSheet,
+  Alert,
+  KeyboardAvoidingView,
+  ScrollView,
+} from 'react-native'
+import { TextInput, Button } from 'react-native-paper'
+import firestore from '@react-native-firebase/firestore'
 
-const MasjidScreen = ({navigation, route}) => {
-  const {item} = route.params;
-  const [name] = useState(item.name);
-  const [iName] = useState(item.iName ? item.iName : '');
-  const [location] = useState(item.location);
-  const [desc] = useState(item.desc ? item.desc : '');
-  const [createdAt] = useState(item.createdAt ? item.createdAt : '');
-  const [phone] = useState(item.phone);
-  const [totalAmount] = useState(item.totalAmount ? item.totalAmount : 0);
-  const [addedAmount, setAddedAmount] = useState(0);
+const MasjidScreen = ({ navigation, route }) => {
+  const { item } = route.params
+  const [name] = useState(item.name)
+  const [iName] = useState(item.iName ? item.iName : ``)
+  const [location] = useState(item.location)
+  const [desc] = useState(item.desc ? item.desc : ``)
+  const [createdAt] = useState(item.createdAt ? item.createdAt : ``)
+  const [phone] = useState(item.phone)
+  const [totalAmount] = useState(item.totalAmount ? item.totalAmount : 0)
+  const [addedAmount, setAddedAmount] = useState(0)
   const postData = async () => {
     try {
       const querySnap = await firestore()
-        .collection('ads')
-        .where('id', '==', item.id)
-        .get();
+        .collection(`ads`)
+        .where(`id`, `==`, item.id)
+        .get()
 
-      const docid = querySnap.docs[0].id;
-      const b = totalAmount + addedAmount;
-      console.log(b);
+      const docid = querySnap.docs[0].id
+      const b = totalAmount + addedAmount
 
-      const a = await firestore()
-        .collection('ads')
+      await firestore()
+        .collection(`ads`)
         .doc(docid)
-        .update({totalAmount: b});
-      console.log(a);
-      Alert.alert('posted your Ad!');
-      navigation.goBack();
+        .update({ totalAmount: b })
+
+      Alert.alert(`posted your Ad!`)
     } catch (err) {
-      console.log(err);
-      Alert.alert('something went wrong.try again');
+      Alert.alert(`something went wrong.try again`)
     }
-  };
+  }
   return (
-    <ScrollView style={{ScreenWidth: '100%'}}>
+    <ScrollView style={{ ScreenWidth: `100%` }}>
       <KeyboardAvoidingView style={styles.container}>
         <Text style={styles.Ad}>{name.trim()} Ad!</Text>
 
@@ -85,7 +87,7 @@ const MasjidScreen = ({navigation, route}) => {
           label="Created At"
           value={
             new Date(createdAt._seconds * 1000).toDateString() +
-            ' at ' +
+            ` at ` +
             new Date(createdAt._seconds * 1000).toLocaleTimeString()
           }
           editable={false}
@@ -110,26 +112,27 @@ const MasjidScreen = ({navigation, route}) => {
         />
         <Button
           style={styles.btn1}
-          disabled={addedAmount == 0 ? true : false}
+          disabled={addedAmount === 0}
           mode="contained"
-          onPress={() => postData()}>
+          onPress={() => postData()}
+        >
           Post
         </Button>
       </KeyboardAvoidingView>
     </ScrollView>
-  );
-};
+  )
+}
 
-export default MasjidScreen;
+export default MasjidScreen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginHorizontal: 30,
-    justifyContent: 'space-evenly',
+    justifyContent: `space-evenly`,
   },
   Ad: {
     fontSize: 22,
-    textAlign: 'center',
+    textAlign: `center`,
   },
   text: {
     padding: 3,
@@ -138,4 +141,4 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     padding: 3,
   },
-});
+})

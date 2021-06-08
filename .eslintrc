@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": [
+    "standard",
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "@react-native-community"
+  ],
+  "plugins": ["prettier", "react", "react-native"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+
+    "no-unused-vars": "off",
+    "no-useless-constructor": "off",
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "backtick"]
+  }
+}

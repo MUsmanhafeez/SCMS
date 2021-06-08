@@ -1,50 +1,51 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react'
 import {
   View,
   Text,
   StyleSheet,
   Alert,
   KeyboardAvoidingView,
-} from 'react-native';
-import {TextInput, Button, Checkbox} from 'react-native-paper';
-import firestore from '@react-native-firebase/firestore';
-import {launchCamera} from 'react-native-image-picker';
-import storage from '@react-native-firebase/storage';
-import uuid from 'react-native-uuid';
-import {ScrollView} from 'react-native';
-import {CheckBoxGroup} from '../component/checkBoxGroup';
-import auth from '@react-native-firebase/auth';
+  ScrollView,
+} from 'react-native'
+import { TextInput, Button } from 'react-native-paper'
+import firestore from '@react-native-firebase/firestore'
+import { launchCamera } from 'react-native-image-picker'
+import storage from '@react-native-firebase/storage'
+import uuid from 'react-native-uuid'
+import { CheckBoxGroup } from '../component/checkBoxGroup'
+import auth from '@react-native-firebase/auth'
 
 const CreateAdScreen = () => {
   const [checkboxes, setCheckboxes] = useState([
     {
       id: 1,
-      title: 'Masjid',
+      title: `Masjid`,
       checked: false,
     },
     {
       id: 2,
-      title: 'Others',
+      title: `Others`,
       checked: true,
     },
-  ]);
-  const [name, setName] = useState('');
-  const [iName, setIName] = useState('');
-  const [location, setLocation] = useState('');
-  const [desc, setDesc] = useState('');
-  const [year, setYear] = useState('');
-  const [phone, setPhone] = useState('');
-  const [image, setImage] = useState('');
-  const [totalAmount, setTotalAmount] = useState(0);
+  ])
+  const [name, setName] = useState(``)
+
+  const [iName, setIName] = useState(``)
+  const [location, setLocation] = useState(``)
+  const [desc, setDesc] = useState(``)
+  const [createdAt] = useState(``)
+  const [phone, setPhone] = useState(``)
+  const [image, setImage] = useState(``)
+  const [totalAmount, setTotalAmount] = useState(0)
   const [isMasjid, setIsMasjid] = useState(
-    checkboxes.filter(cb => cb.title == 'Masjid')[0].checked,
-  );
-  const check = checkboxes[0].checked;
+    checkboxes.filter(cb => cb.title === `Masjid`)[0].checked,
+  )
+  const check = checkboxes[0].checked
   useEffect(() => {
-    const checkMajisd = checkboxes.filter(cb => cb.title == 'Masjid')[0]
-      .checked;
-    setIsMasjid(checkMajisd);
-  }, [check]);
+    const checkMajisd = checkboxes.filter(cb => cb.title === `Masjid`)[0]
+      .checked
+    setIsMasjid(checkMajisd)
+  }, [check, checkboxes])
   //   const sendNoti = () => {
   //     firestore()
   //       .collection('usertoken')
@@ -63,66 +64,64 @@ const CreateAdScreen = () => {
   //             tokens: userDevicetoken,
   //           }),
   //         });
-  console.log(isMasjid);
   //       });
   //   };
 
   const postData = async () => {
-    const id = uuid.v4();
-    const postType = checkboxes.filter(cb => cb.checked)[0].title;
+    const id = uuid.v4()
+    const postType = checkboxes.filter(cb => cb.checked)[0].title
 
     try {
       //   throw error('asd');
-      await firestore().collection('ads').add({
-        id,
-        name,
-        iName,
-        location,
-        desc,
-        postType,
-        phone,
-        image,
-        totalAmount,
-        createdAt: new Date(),
-        owner: auth().currentUser.uid,
-        members: [],
-      });
-      Alert.alert('posted your Ad!');
+      await firestore()
+        .collection(`ads`)
+        .add({
+          id,
+          name,
+          iName,
+          location,
+          desc,
+          postType,
+          phone,
+          image,
+          totalAmount,
+          createdAt: new Date(),
+          owner: auth().currentUser.uid,
+          members: [],
+        })
+      Alert.alert(`posted your Ad!`)
     } catch (err) {
-      console.log(err);
-      Alert.alert('something went wrong.try again');
+      Alert.alert(`something went wrong.try again`)
     }
-  };
+  }
 
   const openCamera = () => {
-    launchCamera({quality: 0.5}, fileobj => {
-      console.log('fileobj');
+    launchCamera({ quality: 0.5 }, fileobj => {
       const uploadTask = storage()
         .ref()
         .child(`/items/${Date.now()}`)
-        .putFile(fileobj.uri);
+        .putFile(fileobj.uri)
 
       uploadTask.on(
-        'state_changed',
+        `state_changed`,
         snapshot => {
-          var progress =
-            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-          if (progress == 100) {
-            alert('uploaded');
+          const progress =
+            (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+          if (progress === 100) {
+            Alert.alert(`uploaded`)
           }
         },
-        error => {
-          alert('something went wrong');
+        () => {
+          Alert.alert(`something went wrong`)
         },
         () => {
           uploadTask.snapshot.ref.getDownloadURL().then(downloadURL => {
-            console.log(downloadURL);
-            setImage(downloadURL);
-          });
+            setImage(downloadURL)
+          })
         },
-      );
-    });
-  };
+      )
+    })
+  }
   return (
     <ScrollView>
       <KeyboardAvoidingView style={styles.container}>
@@ -136,7 +135,7 @@ const CreateAdScreen = () => {
 
         <TextInput
           style={styles.text}
-          label={!isMasjid ? 'Field Name' : 'Masjid Name'}
+          label={!isMasjid ? `Field Name` : `Masjid Name`}
           value={name.toString()}
           mode="outlined"
           onChangeText={text => setName(text)}
@@ -191,54 +190,46 @@ const CreateAdScreen = () => {
             style={styles.btn1}
             icon="camera"
             mode="contained"
-            onPress={() => openCamera()}>
+            onPress={() => openCamera()}
+          >
             upload Image
           </Button>
         )}
         <Button
           style={styles.btn1}
-          disabled={
-            name === '' || location === '' || phone === '' ? true : false
-          }
+          disabled={!!(name === `` || location === `` || phone === ``)}
           mode="contained"
-          onPress={() => postData()}>
+          onPress={() => postData()}
+        >
           Post
         </Button>
       </KeyboardAvoidingView>
     </ScrollView>
-  );
-};
-export default CreateAdScreen;
+  )
+}
+export default CreateAdScreen
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginHorizontal: 30,
-    justifyContent: 'space-evenly',
+    justifyContent: `space-evenly`,
   },
   Ad: {
     fontSize: 22,
-    textAlign: 'center',
+    textAlign: `center`,
   },
   checkboxContainer: {
-    flexDirection: 'row',
+    flexDirection: `row`,
     marginVertical: 30,
     fontSize: 10,
 
-    alignItems: 'center',
+    alignItems: `center`,
   },
-  checkbox: {
-    width: 30,
-    height: 30,
-    marginRight: 20,
-  },
-
   containerStyle: {
     flex: 1,
-
     marginHorizontal: 20,
-
-    justifyContent: 'center',
+    justifyContent: `center`,
   },
   text: {
     padding: 3,
@@ -247,4 +238,4 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     padding: 3,
   },
-});
+})

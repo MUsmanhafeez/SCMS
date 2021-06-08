@@ -1,32 +1,45 @@
-import React, {useState} from 'react';
-import {Text, StyleSheet, KeyboardAvoidingView} from 'react-native';
-import {TextInput, Button} from 'react-native-paper';
-import firestore from '@react-native-firebase/firestore';
-import {ScrollView} from 'react-native';
+import React, { useState } from 'react'
+import {
+  Text,
+  StyleSheet,
+  Alert,
+  KeyboardAvoidingView,
+  ScrollView,
+} from 'react-native'
+import { TextInput, Button } from 'react-native-paper'
 
-const listPostScreen = ({navigation, route}) => {
-  const {item} = route.params;
-  const [name] = useState(item.name);
-  const [location] = useState(item.location);
-  const [desc] = useState(item.desc ? item.desc : '');
-  const [createdAt] = useState(item.createdAt ? item.createdAt : '');
-  const [phone] = useState(item.phone);
-  const postData = async () => {
-    const querySnap = await firestore()
-      .collection('ads')
-      .where('id', '==', item.id)
-      .get();
+const ListPostScreen = ({ navigation, route }) => {
+  const { item } = route.params
+  const [name] = useState(item.name)
+  const [location] = useState(item.location)
+  const [desc] = useState(item.desc ? item.desc : ``)
+  const [createdAt] = useState(item.createdAt ? item.createdAt : ``)
+  const [phone] = useState(item.phone)
+  //   const [members, setMembers] = useState[[]];
+  //   const [docId, setDocId] = useState('');
+  //   const postData = async () => {
+  //     if (members.includes(auth().currentUser.uid))
+  //       Alert.alert('You are Already in this organization !');
+  //     else {
+  //       members.push(auth().currentUser.uid);
+  //       await firestore().collection('ads').doc(docid).update({members});
+  //     }
+  //   };
 
-    // const docid = querySnap.docs[0].id;
-    // await firestore()
-    //   .collection('ads')
-    //   .doc(docid)
-    //   .update({totalAmount: totalAmount + addedAmount});
-    // this.forceUpdate();
-  };
-  console.log(createdAt);
+  //   useEffect(() => {
+  //     async function getQuerySnap() {
+  //       const querySnap = await firestore()
+  //         .collection('ads')
+  //         .where('id', '==', item.id)
+  //         .get();
+  //       setDocId(querySnap.docs[0].id);
+  //       setMembers(querySnap.docs[0].get('members'));
+  //     }
+  //     getQuerySnap();
+  //   }, []);
+
   return (
-    <ScrollView style={{ScreenWidth: '100%'}}>
+    <ScrollView style={{ ScreenWidth: `100%` }}>
       <KeyboardAvoidingView style={styles.container}>
         <Text style={styles.Ad}>{name.trim()} Ad!</Text>
 
@@ -66,7 +79,7 @@ const listPostScreen = ({navigation, route}) => {
           label="Created At"
           value={
             new Date(createdAt._seconds * 1000).toDateString() +
-            ' at ' +
+            ` at ` +
             new Date(createdAt._seconds * 1000).toLocaleTimeString()
           }
           editable={false}
@@ -75,26 +88,26 @@ const listPostScreen = ({navigation, route}) => {
         />
         <Button
           style={styles.btn1}
-          //   disabled={addedAmount == 0 ? true : false}
+          //   disabled={members.includes(auth().currentUser.uid)}
           mode="contained"
-          onPress={() => postData()}>
-          Post
+          // onPress={() => postData()}
+        >
+          Enroll
         </Button>
       </KeyboardAvoidingView>
     </ScrollView>
-  );
-};
+  )
+}
 
-export default listPostScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginHorizontal: 30,
-    justifyContent: 'space-evenly',
+    justifyContent: `space-evenly`,
   },
   Ad: {
     fontSize: 22,
-    textAlign: 'center',
+    textAlign: `center`,
   },
   text: {
     padding: 3,
@@ -103,4 +116,6 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     padding: 3,
   },
-});
+})
+
+export default ListPostScreen
