@@ -29,7 +29,6 @@ const CreateAdScreen = () => {
     },
   ])
   const [name, setName] = useState(``)
-
   const [iName, setIName] = useState(``)
   const [location, setLocation] = useState(``)
   const [desc, setDesc] = useState(``)

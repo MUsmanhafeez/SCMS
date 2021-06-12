@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   Text,
   StyleSheet,
@@ -8,9 +8,11 @@ import {
 } from 'react-native'
 import { TextInput, Button } from 'react-native-paper'
 import firestore from '@react-native-firebase/firestore'
+import auth from '@react-native-firebase/auth'
 
 const MasjidScreen = ({ navigation, route }) => {
   const { item } = route.params
+  console.log(item)
   const [name] = useState(item.name)
   const [iName] = useState(item.iName ? item.iName : ``)
   const [location] = useState(item.location)
@@ -19,20 +21,45 @@ const MasjidScreen = ({ navigation, route }) => {
   const [phone] = useState(item.phone)
   const [totalAmount] = useState(item.totalAmount ? item.totalAmount : 0)
   const [addedAmount, setAddedAmount] = useState(0)
-  const postData = async () => {
-    try {
+  const [members, setMembers] = useState([])
+  const [docId, setDocId] = useState(``)
+
+  useEffect(() => {
+    async function getQuerySnap() {
       const querySnap = await firestore()
         .collection(`ads`)
         .where(`id`, `==`, item.id)
         .get()
+      setDocId(querySnap.docs[0].id)
+      setMembers(querySnap.docs[0].get(`members`))
+    }
+    getQuerySnap()
 
-      const docid = querySnap.docs[0].id
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+  const postData = async () => {
+    try {
       const b = totalAmount + addedAmount
+      const isMember = members.includes(auth().currentUser.uid)
+      !isMember && members.push(auth().currentUser.uid)
+      const a = {
+        totalAmount: b,
+        ...(!members.includes(auth().currentUser.uid) && { members }),
+      }
 
       await firestore()
         .collection(`ads`)
-        .doc(docid)
-        .update({ totalAmount: b })
+        .doc(docId)
+        .update({
+          totalAmount: b,
+        })
+      !isMember &&
+        (await firestore()
+          .collection(`ads`)
+          .doc(docId)
+          .update({
+            totalAmount: b,
+          }))
 
       Alert.alert(`posted your Ad!`)
     } catch (err) {

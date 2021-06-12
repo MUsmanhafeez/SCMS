@@ -10,8 +10,18 @@ import {
 import auth from '@react-native-firebase/auth'
 import firestore from '@react-native-firebase/firestore'
 import { Avatar, Button, Card, Title, Paragraph } from 'react-native-paper'
+import OptionsMenu from 'react-native-option-menu'
+const MoreIcon = require(`../../assets/more/more.png`)
 
 const AccountScreen = ({ navigation }) => {
+
+  const myIcon = (<Icon name="rocket" size={30} color="#900" />)
+<OptionsMenu
+  customButton={myIcon}
+  destructiveIndex={1}
+  options={["Edit", "Delete", "Cancel"]}
+  actions={[editPost,deletePost]}/>
+
   const [items, setItems] = useState([])
   const [loading, setLoading] = useState(false)
 

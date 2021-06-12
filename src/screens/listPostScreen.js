@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   Text,
   StyleSheet,
@@ -7,37 +7,45 @@ import {
   ScrollView,
 } from 'react-native'
 import { TextInput, Button } from 'react-native-paper'
+import firestore from '@react-native-firebase/firestore'
+import auth from '@react-native-firebase/auth'
 
 const ListPostScreen = ({ navigation, route }) => {
   const { item } = route.params
+  console.log(item)
   const [name] = useState(item.name)
   const [location] = useState(item.location)
   const [desc] = useState(item.desc ? item.desc : ``)
   const [createdAt] = useState(item.createdAt ? item.createdAt : ``)
   const [phone] = useState(item.phone)
-  //   const [members, setMembers] = useState[[]];
-  //   const [docId, setDocId] = useState('');
-  //   const postData = async () => {
-  //     if (members.includes(auth().currentUser.uid))
-  //       Alert.alert('You are Already in this organization !');
-  //     else {
-  //       members.push(auth().currentUser.uid);
-  //       await firestore().collection('ads').doc(docid).update({members});
-  //     }
-  //   };
+  const [members, setMembers] = useState([])
+  const [docId, setDocId] = useState(``)
+  const postData = async () => {
+    if (members.includes(auth().currentUser.uid)) {
+      Alert.alert(`You are Already in this organization !`)
+    } else {
+      members.push(auth().currentUser.uid)
+      await firestore()
+        .collection(`ads`)
+        .doc(docId)
+        .update({ members })
+    }
+  }
 
-  //   useEffect(() => {
-  //     async function getQuerySnap() {
-  //       const querySnap = await firestore()
-  //         .collection('ads')
-  //         .where('id', '==', item.id)
-  //         .get();
-  //       setDocId(querySnap.docs[0].id);
-  //       setMembers(querySnap.docs[0].get('members'));
-  //     }
-  //     getQuerySnap();
-  //   }, []);
+  useEffect(() => {
+    async function getQuerySnap() {
+      const querySnap = await firestore()
+        .collection(`ads`)
+        .where(`id`, `==`, item.id)
+        .get()
+      setDocId(querySnap.docs[0].id)
+      setMembers(querySnap.docs[0].get(`members`))
+    }
+    getQuerySnap()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
+  console.log(`in comp`)
   return (
     <ScrollView style={{ ScreenWidth: `100%` }}>
       <KeyboardAvoidingView style={styles.container}>
@@ -88,9 +96,9 @@ const ListPostScreen = ({ navigation, route }) => {
         />
         <Button
           style={styles.btn1}
-          //   disabled={members.includes(auth().currentUser.uid)}
+          disabled={members.includes(auth().currentUser.uid)}
           mode="contained"
-          // onPress={() => postData()}
+          onPress={() => postData()}
         >
           Enroll
         </Button>
