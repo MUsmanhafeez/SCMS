@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/usman/Programming/scms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
+            "outputFile": "/Data/Documents/scms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/b7b1a7b8d572723857e4be549fabeabe/jetified-play-services-basement-17.1.1/res/values-nb/values.xml",

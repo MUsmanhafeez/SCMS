@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/usman/Programming/scms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "/Data/Documents/scms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/1f13b510655c8c17938e6be10ad46bcd/material-1.1.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",

@@ -1,30 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
-MERGED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
+ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/05b72d251a2c573a7835c76b5f32ed8a/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/3e4acdb6da73c6a5a6af37a5f24a373a/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-community_checkbox] /home/usman/Programming/scms/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_masked-view] /home/usman/Programming/scms/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:react-native-firebase_firestore] /home/usman/Programming/scms/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-45:12
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
-MERGED from [:react-native-firebase_app] /home/usman/Programming/scms/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /home/usman/Programming/scms/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
-MERGED from [:react-native-safe-area-context] /home/usman/Programming/scms/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /home/usman/Programming/scms/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-vector-icons] /home/usman/Programming/scms/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_checkbox] /Data/Documents/scms/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Data/Documents/scms/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_firestore] /Data/Documents/scms/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-firebase_app] /Data/Documents/scms/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Data/Documents/scms/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-safe-area-context] /Data/Documents/scms/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Data/Documents/scms/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Data/Documents/scms/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.64.0] /home/usman/.gradle/caches/transforms-2/files-2.1/89a848b557ab8dc2f69221352f883293/jetified-react-native-0.64.0/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.multidex:multidex:2.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/d2dcb72557492c6e0ac469825d81c06c/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/4073de8c86ea73df24e303c33a8f4348/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/usman/.gradle/caches/transforms-2/files-2.1/125bd629d854512c070b6a5e54474b90/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /home/usman/Programming/scms/node_modules/react-native-reanimated/android/build/.transforms/748e78688d78cb2fdb1044ff1c2e2b4b/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Data/Documents/scms/node_modules/react-native-reanimated/android/build/.transforms/2333098204e3252e7625c5d6f0d88a69/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/8c247db5f2b328a96c2509146d33e6e2/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/0947860452d51ae6c498163609ed4bf3/jetified-stetho-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/f0d3b8b3a49de8308a07517fd88c4959/jetified-fresco-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -106,36 +106,36 @@ MERGED from [androidx.print:print:1.0.0] /home/usman/.gradle/caches/transforms-2
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/7164f341eedf013bbb43a4adfef57bd3/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/de06dbf68b42c6b857baa43ea9131f57/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /home/usman/.gradle/caches/transforms-2/files-2.1/41b2496025f0baa5bb5ade9e567b8fbc/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:2:3-21
-		INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:2:3-21
-		INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:2:3-21
+		INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:2:3-21
+		INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
-		INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
-		INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
-MERGED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/usman/.gradle/caches/transforms-2/files-2.1/d98018e1211f904fb77bad8f8d1dce49/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/usman/.gradle/caches/transforms-2/files-2.1/d98018e1211f904fb77bad8f8d1dce49/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/usman/.gradle/caches/transforms-2/files-2.1/1a2eb5eb869d940ead9d3dfcd13b6da9/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
@@ -151,15 +151,15 @@ MERGED from [com.google.firebase:firebase-installations:16.3.5] /home/usman/.gra
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/789b2d399f9676f889b7b5d8e9f6cd6b/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/789b2d399f9676f889b7b5d8e9f6cd6b/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-43:19
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-43:19
-MERGED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.64.0] /home/usman/.gradle/caches/transforms-2/files-2.1/89a848b557ab8dc2f69221352f883293/jetified-react-native-0.64.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.0] /home/usman/.gradle/caches/transforms-2/files-2.1/89a848b557ab8dc2f69221352f883293/jetified-react-native-0.64.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/usman/.gradle/caches/transforms-2/files-2.1/32b336c559d1c7a39fd1d94141443225/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
@@ -211,85 +211,85 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/usman
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /home/usman/.gradle/caches/transforms-2/files-2.1/399d8edc3d694a8e851461baa17adfd1/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:10:9-48
+		ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:9:9-29
+		ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:8:9-44
+		ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:7:7-38
 activity#com.scms.MainActivity
-ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:13:7-23:18
+ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:13:7-23:18
 	android:label
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:launchMode
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:17:9-40
 	android:windowSoftInputMode
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:18:9-51
 	android:configChanges
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:16:9-86
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:16:9-86
 	android:name
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml:21:23-70
 uses-sdk
-INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml
+INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml
+INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/05b72d251a2c573a7835c76b5f32ed8a/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/05b72d251a2c573a7835c76b5f32ed8a/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/3e4acdb6da73c6a5a6af37a5f24a373a/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/3e4acdb6da73c6a5a6af37a5f24a373a/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-community_checkbox] /home/usman/Programming/scms/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_checkbox] /home/usman/Programming/scms/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /home/usman/Programming/scms/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /home/usman/Programming/scms/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_firestore] /home/usman/Programming/scms/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_firestore] /home/usman/Programming/scms/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_app] /home/usman/Programming/scms/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_app] /home/usman/Programming/scms/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /home/usman/Programming/scms/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /home/usman/Programming/scms/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] /home/usman/Programming/scms/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /home/usman/Programming/scms/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /home/usman/Programming/scms/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /home/usman/Programming/scms/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/usman/Programming/scms/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/usman/Programming/scms/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_checkbox] /Data/Documents/scms/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Data/Documents/scms/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Data/Documents/scms/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Data/Documents/scms/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] /Data/Documents/scms/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] /Data/Documents/scms/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Data/Documents/scms/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Data/Documents/scms/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Data/Documents/scms/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Data/Documents/scms/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Data/Documents/scms/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Data/Documents/scms/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Data/Documents/scms/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Data/Documents/scms/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Data/Documents/scms/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Data/Documents/scms/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.0] /home/usman/.gradle/caches/transforms-2/files-2.1/89a848b557ab8dc2f69221352f883293/jetified-react-native-0.64.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.0] /home/usman/.gradle/caches/transforms-2/files-2.1/89a848b557ab8dc2f69221352f883293/jetified-react-native-0.64.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/d2dcb72557492c6e0ac469825d81c06c/multidex-2.0.1/AndroidManifest.xml:20:5-43
@@ -298,8 +298,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/usman/.
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/4073de8c86ea73df24e303c33a8f4348/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /home/usman/.gradle/caches/transforms-2/files-2.1/125bd629d854512c070b6a5e54474b90/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/usman/.gradle/caches/transforms-2/files-2.1/125bd629d854512c070b6a5e54474b90/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/usman/Programming/scms/node_modules/react-native-reanimated/android/build/.transforms/748e78688d78cb2fdb1044ff1c2e2b4b/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/usman/Programming/scms/node_modules/react-native-reanimated/android/build/.transforms/748e78688d78cb2fdb1044ff1c2e2b4b/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Data/Documents/scms/node_modules/react-native-reanimated/android/build/.transforms/2333098204e3252e7625c5d6f0d88a69/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Data/Documents/scms/node_modules/react-native-reanimated/android/build/.transforms/2333098204e3252e7625c5d6f0d88a69/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/8c247db5f2b328a96c2509146d33e6e2/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/8c247db5f2b328a96c2509146d33e6e2/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/0947860452d51ae6c498163609ed4bf3/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
@@ -462,44 +462,44 @@ MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/usman/.gradle/caches/tra
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/de06dbf68b42c6b857baa43ea9131f57/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /home/usman/.gradle/caches/transforms-2/files-2.1/41b2496025f0baa5bb5ade9e567b8fbc/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /home/usman/.gradle/caches/transforms-2/files-2.1/41b2496025f0baa5bb5ade9e567b8fbc/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Data/Documents/scms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:5:5-77
+ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:5:22-75
+		ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:5:22-75
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:11:9-86
+ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:11:9-86
 	android:name
-		ADDED from /home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:11:19-83
+		ADDED from /Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+ADDED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
 MERGED from [com.google.firebase:firebase-iid:21.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/09a022899e8293a35aa46600d3fd07ef/jetified-firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:21.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/09a022899e8293a35aa46600d3fd07ef/jetified-firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/789b2d399f9676f889b7b5d8e9f6cd6b/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/789b2d399f9676f889b7b5d8e9f6cd6b/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
 	android:name
-		ADDED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+		ADDED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-MERGED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-MERGED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+ADDED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/usman/.gradle/caches/transforms-2/files-2.1/d98018e1211f904fb77bad8f8d1dce49/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/usman/.gradle/caches/transforms-2/files-2.1/d98018e1211f904fb77bad8f8d1dce49/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:13:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] /home/usman/.gradle/caches/transforms-2/files-2.1/ec0e749d8c9a1b6bf93d6653a7f7256f/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
@@ -519,79 +519,79 @@ MERGED from [com.google.firebase:firebase-installations:16.3.5] /home/usman/.gra
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/789b2d399f9676f889b7b5d8e9f6cd6b/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/789b2d399f9676f889b7b5d8e9f6cd6b/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from [:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+		ADDED from [:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
 receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
 	android:value
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
 	android:value
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
 	android:resource
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+		ADDED from [:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
+ADDED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
 	android:name
-		ADDED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-77
+		ADDED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+ADDED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from [:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-78
+		ADDED from [:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-78
 provider#com.imagepicker.ImagePickerProvider
-ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+		ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
 	android:exported
-		ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+		ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
 	android:resource
-		ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+		ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
 	android:name
-		ADDED from [:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+		ADDED from [:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore:22.1.2] /home/usman/.gradle/caches/transforms-2/files-2.1/d98018e1211f904fb77bad8f8d1dce49/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-messaging:21.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/5ce34bda06f84344e4f0a7039f862cb1/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19

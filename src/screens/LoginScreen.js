@@ -9,6 +9,10 @@ import {
   Alert,
   Linking,
 } from 'react-native'
+import LinearGradient from 'react-native-linear-gradient'
+import FontAwesome from 'react-native-vector-icons/FontAwesome'
+import Feather from 'react-native-vector-icons/Feather'
+import * as Animatable from 'react-native-animatable'
 import { TextInput, Button } from 'react-native-paper'
 import auth from '@react-native-firebase/auth'
 

@@ -1,9 +1,0 @@
-com/scms/BuildConfig.java
- com.scms.BuildConfig
-com/scms/MainApplication.java
- com.scms.MainApplication
- com.scms.MainApplication$1
-com/scms/MainActivity.java
- com.scms.MainActivity
-com/facebook/react/PackageList.java
- com.facebook.react.PackageList

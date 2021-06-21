@@ -9,144 +9,144 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:4:22-64
+12-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/45948cd7c1c734197cc605a1b7e600c6/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-14-->[:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+14-->[:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- TODO(salakar) Not sure if this should be part of the package manifest or leave to users app manifest code? -->
-15-->[:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-15-->[:react-native-firebase_auth] /home/usman/Programming/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+15-->[:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] /Data/Documents/scms/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->[:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
-16-->[:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-77
+16-->[:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
+16-->[:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-17-->[:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
-17-->[:react-native-firebase_storage] /home/usman/Programming/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-78
+17-->[:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+17-->[:react-native-firebase_storage] /Data/Documents/scms/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-78
 18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 18-->[com.google.firebase:firebase-iid:21.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/09a022899e8293a35aa46600d3fd07ef/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
 18-->[com.google.firebase:firebase-iid:21.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/09a022899e8293a35aa46600d3fd07ef/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
 19
 20    <application
-20-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
+20-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:6:5-24:19
 21        android:name="com.scms.MainApplication"
-21-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:7:7-38
+21-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:7:7-38
 22        android:allowBackup="false"
-22-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:11:7-34
+22-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:11:7-34
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.3.1] /home/usman/.gradle/caches/transforms-2/files-2.1/399d8edc3d694a8e851461baa17adfd1/core-1.3.1/AndroidManifest.xml:24:18-86
 24        android:debuggable="true"
 25        android:icon="@mipmap/ic_launcher"
-25-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:9:7-41
+25-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:9:7-41
 26        android:label="@string/app_name"
-26-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:8:7-39
+26-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:8:7-39
 27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:10:7-52
+27-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:10:7-52
 28        android:theme="@style/AppTheme"
-28-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:12:7-38
+28-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:12:7-38
 29        android:usesCleartextTraffic="true" >
-29-->/home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:8:9-44
+29-->/Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:8:9-44
 30        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-30-->/home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:11:9-86
-30-->/home/usman/Programming/scms/android/app/src/debug/AndroidManifest.xml:11:19-83
+30-->/Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:11:9-86
+30-->/Data/Documents/scms/android/app/src/debug/AndroidManifest.xml:11:19-83
 31        <activity
-31-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:13:7-23:18
+31-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:13:7-23:18
 32            android:name="com.scms.MainActivity"
-32-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:14:9-37
+32-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:14:9-37
 33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-33-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:16:9-86
+33-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:16:9-86
 34            android:label="@string/app_name"
-34-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:15:9-41
+34-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:15:9-41
 35            android:launchMode="singleTask"
-35-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:17:9-40
+35-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:17:9-40
 36            android:windowSoftInputMode="adjustResize" >
-36-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:18:9-51
+36-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:18:9-51
 37            <intent-filter>
-37-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:19:9-22:25
+37-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:19:9-22:25
 38                <action android:name="android.intent.action.MAIN" />
-38-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:20:13-65
-38-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:20:21-62
+38-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:20:13-65
+38-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:20:21-62
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:21:13-73
-40-->/home/usman/Programming/scms/android/app/src/main/AndroidManifest.xml:21:23-70
+40-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:21:13-73
+40-->/Data/Documents/scms/android/app/src/main/AndroidManifest.xml:21:23-70
 41            </intent-filter>
 42        </activity>
 43
 44        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
-44-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
-44-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+44-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+44-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
 45        <service
-45-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+45-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
 46            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-46-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+46-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
 47            android:exported="false" >
-47-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+47-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
 48            <intent-filter>
-48-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+48-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
 49                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-49-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
-49-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+49-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+49-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
 50            </intent-filter>
 51        </service>
 52
 53        <receiver
-53-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+53-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
 54            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-54-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+54-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
 55            android:exported="true"
-55-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+55-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
 56            android:permission="com.google.android.c2dm.permission.SEND" >
-56-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+56-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
 57            <intent-filter>
-57-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+57-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
 58                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-58-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
-58-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+58-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+58-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
 59            </intent-filter>
 60        </receiver>
 61
 62        <meta-data
-62-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+62-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
 63            android:name="firebase_messaging_auto_init_enabled"
-63-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+63-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
 64            android:value="true" />
-64-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+64-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
 65        <meta-data
-65-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+65-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
 66            android:name="com.google.firebase.messaging.default_notification_channel_id"
-66-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+66-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
 67            android:value="" />
-67-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+67-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
 68        <meta-data
-68-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+68-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
 69            android:name="com.google.firebase.messaging.default_notification_color"
-69-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+69-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
 70            android:resource="@color/white" />
-70-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+70-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
 71
 72        <provider
-72-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+72-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 73            android:name="com.imagepicker.ImagePickerProvider"
-73-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+73-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
 74            android:authorities="com.scms.imagepickerprovider"
-74-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+74-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
 75            android:exported="false"
-75-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+75-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 76            android:grantUriPermissions="true" >
-76-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+76-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 77            <meta-data
-77-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+77-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
 78                android:name="android.support.FILE_PROVIDER_PATHS"
-78-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+78-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
 79                android:resource="@xml/imagepicker_provider_paths" />
-79-->[:react-native-image-picker] /home/usman/Programming/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+79-->[:react-native-image-picker] /Data/Documents/scms/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
 80        </provider>
 81
 82        <service
@@ -223,10 +223,10 @@
 122            android:exported="false" >
 122-->[com.google.firebase:firebase-messaging:21.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/5ce34bda06f84344e4f0a7039f862cb1/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
 123            <intent-filter android:priority="-500" >
-123-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+123-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
 124                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-124-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
-124-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+124-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+124-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
 125            </intent-filter>
 126        </service>
 127        <service
@@ -384,10 +384,10 @@
 210            android:permission="com.google.android.c2dm.permission.SEND" >
 210-->[com.google.firebase:firebase-iid:21.0.1] /home/usman/.gradle/caches/transforms-2/files-2.1/09a022899e8293a35aa46600d3fd07ef/jetified-firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
 211            <intent-filter>
-211-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+211-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
 212                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-212-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
-212-->[:react-native-firebase_messaging] /home/usman/Programming/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+212-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+212-->[:react-native-firebase_messaging] /Data/Documents/scms/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
 213            </intent-filter>
 214        </receiver>
 215
