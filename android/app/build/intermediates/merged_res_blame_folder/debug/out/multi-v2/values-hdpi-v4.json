@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Data/Documents/scms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/home/usman/Programming/scms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/922ba9365e64308efd646780bcd04f1b/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",

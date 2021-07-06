@@ -5,16 +5,15 @@ import {
   Image,
   StyleSheet,
   KeyboardAvoidingView,
-  TouchableOpacity,
   Alert,
-  Linking,
 } from 'react-native'
-import LinearGradient from 'react-native-linear-gradient'
-import FontAwesome from 'react-native-vector-icons/FontAwesome'
-import Feather from 'react-native-vector-icons/Feather'
-import * as Animatable from 'react-native-animatable'
 import { TextInput, Button } from 'react-native-paper'
 import auth from '@react-native-firebase/auth'
+// import { MaterialCommunityIcons } from '@expo/vector-icons'
+import { Icon } from 'react-native-elements'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState(``)
@@ -49,13 +48,23 @@ const LoginScreen = ({ navigation }) => {
           mode="outlined"
           onChangeText={text => setEmail(text)}
         />
-        <TextInput
-          label="password"
-          value={password}
-          mode="outlined"
-          secureTextEntry={true}
-          onChangeText={text => setPassword(text)}
-        />
+        <View>
+          <TextInput
+            label="Password"
+            value={password}
+            mode="outlined"
+            secureTextEntry={true}
+            onChangeText={text => setPassword(text)}
+            <Icon name="eye" color="#00aced" />
+          />
+          
+          <MaterialCommunityIcons name="home" color="#00aced" />
+          {/* <FontAwesomeIcon icon={faEye} /> */}
+
+          {/* <TouchableOpacity>
+            <MaterialCommunityIcons name={`eye-outline`} size={25} />
+          </TouchableOpacity> */}
+        </View>
         <Button mode="contained" onPress={() => userLogin()}>
           Login
         </Button>
