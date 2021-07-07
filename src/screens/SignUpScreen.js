@@ -13,12 +13,10 @@ import {
 import { TextInput, Button } from 'react-native-paper'
 import auth from '@react-native-firebase/auth'
 import LinearGradient from 'react-native-linear-gradient'
-import { FontAwesome } from 'react-native-vector-icons/FontAwesome'
-import Feather from 'react-native-vector-icons/Feather'
-import * as Animatable from 'react-native-animatable'
 import firestore from '@react-native-firebase/firestore'
 import messaging from '@react-native-firebase/messaging'
-import { Icon } from 'react-native-vector-icons/FontAwesome5'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import tw from 'tailwind-react-native-classnames'
 
 const SignUpScreen = ({ navigation }) => {
   const [firstname, setFirstName] = useState(``)
@@ -28,28 +26,7 @@ const SignUpScreen = ({ navigation }) => {
   const [password, setPassword] = useState(``)
   const [confirmpassword, setConfirmPassword] = useState(``)
 
-  const [icon, setIcon] = useState(`eye-off`)
-  const [hidePassword, setHidePassword] = useState(true)
-  const [hidepass, setHidePass] = useState(true)
-  // changeIcon = () => {
-  //   icon !== `eye-off`
-  //     ? (setIcon(`eye-off`), setHidePassword(false))
-  //     : (setIcon(`eye`), setHidePassword(true))
-  // }
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     secureTextEntry: true,
-  //     iconName: "eye",
-  //   }
-  // }
-  // onIconPress = () => {
-  //   let iconName = (this.state.secureTextEntry) ? "eye-off" : "eye";
-  //   this.setState({
-  //     secureTextEntry: !this.state.secureTextEntry,
-  //     iconName: iconName
-  //   });
-  // }
+  const [isPasswordView, setIsPasswordView] = useState(false)
 
   const userSignup = async () => {
     if (!email || !password || !confirmpassword) {
@@ -103,38 +80,37 @@ const SignUpScreen = ({ navigation }) => {
             mode="outlined"
             onChangeText={text => setLastName(text)}
           />
-          <View>
-            {/* <FontAwesome name="user-o" color="#05375a" size={20} /> */}
+
+          <TextInput
+            style={styles.textInput}
+            label="Email"
+            value={email}
+            inlineImageLeft="user-o"
+            mode="outlined"
+            onChangeText={text => setEmail(text)}
+          />
+
+          <View style={tw`relative mb-5 mt-4`}>
             <TextInput
-              style={styles.textInput}
-              label="Email"
-              value={email}
-              inlineImageLeft="user-o"
-              mode="outlined"
-              onChangeText={text => setEmail(text)}
-            />
-          </View>
-          <View>
-            {/* <FontAwesome name="lock" color="#05375a" size={20} /> */}
-            <TextInput
-              // {...this.props}
-              style={styles.textInput}
               label="Password"
-              secureTextEntry={!!hidepass}
               value={password}
               mode="outlined"
+              secureTextEntry={isPasswordView}
               onChangeText={text => setPassword(text)}
             />
-            <Icon
-              name={icon}
-              size={20}
-              onPress={() => setHidePassword(!hidepass)}
-            />
-            {/* <TouchableOpacity onPress={this.onIconPress}>
-              <Icon name={this.state.iconName} size={20} /> */}
-            {/* onPress={updateSecureTextEntry} */}
-            {/* <Feather name="eye-off" color="grey" size={20} /> */}
-            {/* </TouchableOpacity> */}
+
+            <TouchableOpacity
+              style={tw`absolute z-20 top-5 right-2 h-16 w-10`}
+              onPress={() => {
+                setIsPasswordView(!isPasswordView)
+              }}
+            >
+              <MaterialCommunityIcons
+                name={`${!isPasswordView ? `eye-outline` : `eye-off-outline`}`}
+                size={30}
+                color={`#057094`}
+              />
+            </TouchableOpacity>
           </View>
           <TextInput
             style={styles.textInput}

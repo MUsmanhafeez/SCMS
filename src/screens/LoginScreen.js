@@ -6,14 +6,13 @@ import {
   StyleSheet,
   KeyboardAvoidingView,
   Alert,
+  TouchableOpacity,
 } from 'react-native'
 import { TextInput, Button } from 'react-native-paper'
 import auth from '@react-native-firebase/auth'
 // import { MaterialCommunityIcons } from '@expo/vector-icons'
-import { Icon } from 'react-native-elements'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-import { faEye } from '@fortawesome/free-solid-svg-icons'
+import tw from 'tailwind-react-native-classnames'
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState(``)
@@ -30,7 +29,7 @@ const LoginScreen = ({ navigation }) => {
       Alert.alert(`Error! wrong credentials...`)
     }
   }
-
+  const [isPasswordView, setIsPasswordView] = useState(false)
   return (
     <KeyboardAvoidingView behavior="position">
       <View style={styles.box1}>
@@ -48,22 +47,27 @@ const LoginScreen = ({ navigation }) => {
           mode="outlined"
           onChangeText={text => setEmail(text)}
         />
-        <View>
+        <View style={tw`relative mb-5 mt-4`}>
           <TextInput
             label="Password"
             value={password}
             mode="outlined"
-            secureTextEntry={true}
+            secureTextEntry={isPasswordView}
             onChangeText={text => setPassword(text)}
-            <Icon name="eye" color="#00aced" />
           />
-          
-          <MaterialCommunityIcons name="home" color="#00aced" />
-          {/* <FontAwesomeIcon icon={faEye} /> */}
 
-          {/* <TouchableOpacity>
-            <MaterialCommunityIcons name={`eye-outline`} size={25} />
-          </TouchableOpacity> */}
+          <TouchableOpacity
+            style={tw`absolute z-20 top-5 right-2 h-16 w-10`}
+            onPress={() => {
+              setIsPasswordView(!isPasswordView)
+            }}
+          >
+            <MaterialCommunityIcons
+              name={`${!isPasswordView ? `eye-outline` : `eye-off-outline`}`}
+              size={30}
+              color={`#057094`}
+            />
+          </TouchableOpacity>
         </View>
         <Button mode="contained" onPress={() => userLogin()}>
           Login
@@ -119,6 +123,10 @@ const styles = StyleSheet.create({
     color: `#788eec`,
     fontWeight: `bold`,
     fontSize: 16,
+  },
+  Icon: {
+    top: 0,
+    position: `absolute`,
   },
 })
 
