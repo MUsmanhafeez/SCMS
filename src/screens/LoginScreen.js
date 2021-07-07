@@ -6,17 +6,18 @@ import {
   StyleSheet,
   KeyboardAvoidingView,
   Alert,
+  Platform,
   TouchableOpacity,
 } from 'react-native'
 import { TextInput, Button } from 'react-native-paper'
 import auth from '@react-native-firebase/auth'
-// import { MaterialCommunityIcons } from '@expo/vector-icons'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import tw from 'tailwind-react-native-classnames'
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState(``)
   const [password, setPassword] = useState(``)
+  const [isPasswordView, setIsPasswordView] = useState(true)
 
   const userLogin = async () => {
     if (!email || !password) {
@@ -29,7 +30,7 @@ const LoginScreen = ({ navigation }) => {
       Alert.alert(`Error! wrong credentials...`)
     }
   }
-  const [isPasswordView, setIsPasswordView] = useState(false)
+
   return (
     <KeyboardAvoidingView behavior="position">
       <View style={styles.box1}>
@@ -81,6 +82,10 @@ const LoginScreen = ({ navigation }) => {
                     onPress={()=>navigation.navigate("signup")}>
 
                 </TouchableOpacity> */}
+        {/* <TouchableOpacity style={styles.forgotButton} onPress={() => {}}>
+          <Text style={styles.navButtonText}>Forgot Password?</Text>
+        </TouchableOpacity> */}
+
         <View style={styles.footerView}>
           <Text style={styles.footerText}>
             Don't have an account?{` `}
@@ -103,7 +108,7 @@ const styles = StyleSheet.create({
   },
   box2: {
     paddingHorizontal: 40,
-    height: `50%`,
+    height: `100%`,
     justifyContent: `space-evenly`,
   },
   text: {
@@ -120,13 +125,22 @@ const styles = StyleSheet.create({
     color: `#2e2e2d`,
   },
   footerLink: {
-    color: `#788eec`,
+    color: `#2e64e5`,
     fontWeight: `bold`,
     fontSize: 16,
   },
   Icon: {
     top: 0,
     position: `absolute`,
+  },
+  forgotButton: {
+    margin: 10,
+  },
+  navButtonText: {
+    fontSize: 18,
+    fontWeight: `500`,
+    color: `#2e64e5`,
+    // fontFamily: `Lato-Regular`,
   },
 })
 

@@ -26,7 +26,8 @@ const SignUpScreen = ({ navigation }) => {
   const [password, setPassword] = useState(``)
   const [confirmpassword, setConfirmPassword] = useState(``)
 
-  const [isPasswordView, setIsPasswordView] = useState(false)
+  const [isPasswordView, setIsPasswordView] = useState(true)
+  const [isConfirmPasswordView, setIsConfirmPasswordView] = useState(true)
 
   const userSignup = async () => {
     if (!email || !password || !confirmpassword) {
@@ -90,8 +91,9 @@ const SignUpScreen = ({ navigation }) => {
             onChangeText={text => setEmail(text)}
           />
 
-          <View style={tw`relative mb-5 mt-4`}>
+          <View style={tw`relative `}>
             <TextInput
+              style={styles.textInput}
               label="Password"
               value={password}
               mode="outlined"
@@ -100,7 +102,7 @@ const SignUpScreen = ({ navigation }) => {
             />
 
             <TouchableOpacity
-              style={tw`absolute z-20 top-5 right-2 h-16 w-10`}
+              style={tw`absolute z-20 top-6 right-2 h-16 w-10`}
               onPress={() => {
                 setIsPasswordView(!isPasswordView)
               }}
@@ -112,14 +114,30 @@ const SignUpScreen = ({ navigation }) => {
               />
             </TouchableOpacity>
           </View>
-          <TextInput
-            style={styles.textInput}
-            label="Confirm Password"
-            value={confirmpassword}
-            mode="outlined"
-            secureTextEntry={true}
-            onChangeText={text => setConfirmPassword(text)}
-          />
+          <View style={tw`relative `}>
+            <TextInput
+              style={styles.textInput}
+              label="Confirm Password"
+              value={confirmpassword}
+              mode="outlined"
+              secureTextEntry={isConfirmPasswordView}
+              onChangeText={text => setConfirmPassword(text)}
+            />
+            <TouchableOpacity
+              style={tw`absolute z-20 top-6 right-2 h-16 w-10`}
+              onPress={() => {
+                setIsConfirmPasswordView(!isConfirmPasswordView)
+              }}
+            >
+              <MaterialCommunityIcons
+                name={`${
+                  !isConfirmPasswordView ? `eye-outline` : `eye-off-outline`
+                }`}
+                size={30}
+                color={`#057094`}
+              />
+            </TouchableOpacity>
+          </View>
           <TextInput
             style={styles.textInput}
             label="Contact Number"
@@ -207,10 +225,6 @@ const styles = StyleSheet.create({
   },
   footer: {
     flex: 1,
-    // backgroundColor: `#fff`,
-    // borderTopLeftRadius: 30,
-    // borderTopRightRadius: 30,
-    // paddingHorizontal: 20,
     paddingVertical: 30,
     paddingHorizontal: 40,
     height: `50%`,
@@ -242,7 +256,7 @@ const styles = StyleSheet.create({
   textInput: {
     flex: 1,
     marginTop: 5,
-    paddingLeft: 10,
+    paddingLeft: 5,
     color: `#05375a`,
   },
   errorMsg: {
