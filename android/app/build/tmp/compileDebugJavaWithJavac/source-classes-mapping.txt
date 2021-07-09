@@ -1,14 +1,14 @@
-com/scms/BuildConfig.java
- com.scms.BuildConfig
 com/scms/ReactNativeFlipper.java
- com.scms.ReactNativeFlipper
- com.scms.ReactNativeFlipper$1
- com.scms.ReactNativeFlipper$2
- com.scms.ReactNativeFlipper$2$1
+ com.SCMS.ReactNativeFlipper
+ com.SCMS.ReactNativeFlipper$1
+ com.SCMS.ReactNativeFlipper$2
+ com.SCMS.ReactNativeFlipper$2$1
 com/scms/MainApplication.java
- com.scms.MainApplication
- com.scms.MainApplication$1
+ com.SCMS.MainApplication
+ com.SCMS.MainApplication$1
+com/SCMS/BuildConfig.java
+ com.SCMS.BuildConfig
 com/scms/MainActivity.java
- com.scms.MainActivity
+ com.SCMS.MainActivity
 com/facebook/react/PackageList.java
  com.facebook.react.PackageList

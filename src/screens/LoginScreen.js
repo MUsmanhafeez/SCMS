@@ -8,6 +8,7 @@ import {
   Alert,
   Platform,
   TouchableOpacity,
+  ScrollView,
 } from 'react-native'
 import { TextInput, Button } from 'react-native-paper'
 import auth from '@react-native-firebase/auth'
@@ -18,7 +19,6 @@ const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState(``)
   const [password, setPassword] = useState(``)
   const [isPasswordView, setIsPasswordView] = useState(true)
-
   const userLogin = async () => {
     if (!email || !password) {
       Alert.alert(`please fill all the fields`)
@@ -32,73 +32,75 @@ const LoginScreen = ({ navigation }) => {
   }
 
   return (
-    <KeyboardAvoidingView behavior="position">
-      <View style={styles.box1}>
-        <Image
-          // eslint-disable-next-line react-native/no-inline-styles
-          style={{ width: 200, height: 200 }}
-          source={require(`../assets/scms-logo.jpeg`)}
-        />
-        <Text style={styles.text}>please login to continue!</Text>
-      </View>
-      <View style={styles.box2}>
-        <TextInput
-          label="Email"
-          value={email}
-          mode="outlined"
-          onChangeText={text => setEmail(text)}
-        />
-        <View style={tw`relative mb-5 mt-4`}>
-          <TextInput
-            label="Password"
-            value={password}
-            mode="outlined"
-            secureTextEntry={isPasswordView}
-            onChangeText={text => setPassword(text)}
+    <ScrollView>
+      <KeyboardAvoidingView behavior="position">
+        <View style={styles.box1}>
+          <Image
+            // eslint-disable-next-line react-native/no-inline-styles
+            style={{ width: 200, height: 200 }}
+            source={require(`../assets/SCMS-logo.jpeg`)}
           />
-
-          <TouchableOpacity
-            style={tw`absolute z-20 top-5 right-2 h-16 w-10`}
-            onPress={() => {
-              setIsPasswordView(!isPasswordView)
-            }}
-          >
-            <MaterialCommunityIcons
-              name={`${!isPasswordView ? `eye-outline` : `eye-off-outline`}`}
-              size={30}
-              color={`#057094`}
-            />
-          </TouchableOpacity>
+          <Text style={styles.text}>please login to continue!</Text>
         </View>
-        <Button mode="contained" onPress={() => userLogin()}>
-          Login
-        </Button>
-        {/* <TouchableOpacity onPress={()=>navigation.navigate("signup")}>
+        <View style={styles.box2}>
+          <TextInput
+            label="Email"
+            value={email}
+            mode="outlined"
+            onChangeText={text => setEmail(text)}
+          />
+          <View style={tw`relative mb-5 mt-4`}>
+            <TextInput
+              label="Password"
+              value={password}
+              mode="outlined"
+              secureTextEntry={isPasswordView}
+              onChangeText={text => setPassword(text)}
+            />
+
+            <TouchableOpacity
+              style={tw`absolute z-20 top-5 right-2 h-16 w-10`}
+              onPress={() => {
+                setIsPasswordView(!isPasswordView)
+              }}
+            >
+              <MaterialCommunityIcons
+                name={`${!isPasswordView ? `eye-outline` : `eye-off-outline`}`}
+                size={30}
+                color={`#057094`}
+              />
+            </TouchableOpacity>
+          </View>
+          <Button mode="contained" onPress={() => userLogin()}>
+            Login
+          </Button>
+          {/* <TouchableOpacity onPress={()=>navigation.navigate("signup")}>
                      <Text style={{textAlign:"center"}}>Don't have a account {''} SignUp </Text>
                  </TouchableOpacity> */}
 
-        {/* <TouchableOpacity
+          {/* <TouchableOpacity
 
                     onPress={()=>navigation.navigate("signup")}>
 
                 </TouchableOpacity> */}
-        <TouchableOpacity style={styles.forgotButton} onPress={() => {}}>
-          <Text style={styles.navButtonText}>Forgot Password?</Text>
-        </TouchableOpacity>
+          <TouchableOpacity style={styles.forgotButton} onPress={() => {}}>
+            <Text style={styles.navButtonText}>Forgot Password?</Text>
+          </TouchableOpacity>
 
-        <View style={styles.footerView}>
-          <Text style={styles.footerText}>
-            Don't have an account?{` `}
-            <Text
-              onPress={() => navigation.navigate(`signup`)}
-              style={styles.footerLink}
-            >
-              Sign up
+          <View style={styles.footerView}>
+            <Text style={styles.footerText}>
+              Don't have an account?{` `}
+              <Text
+                onPress={() => navigation.navigate(`signup`)}
+                style={styles.footerLink}
+              >
+                Sign up
+              </Text>
             </Text>
-          </Text>
+          </View>
         </View>
-      </View>
-    </KeyboardAvoidingView>
+      </KeyboardAvoidingView>
+    </ScrollView>
   )
 }
 
@@ -108,7 +110,7 @@ const styles = StyleSheet.create({
   },
   box2: {
     paddingHorizontal: 40,
-    height: `100%`,
+    // height: `100%`,
     justifyContent: `space-evenly`,
   },
   text: {

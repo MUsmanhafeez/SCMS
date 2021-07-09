@@ -12,7 +12,7 @@ import auth from '@react-native-firebase/auth'
 
 const ListPostScreen = ({ navigation, route }) => {
   const { item } = route.params
-  console.log(item)
+  // console.log(item)
   const [name] = useState(item.name)
   const [location] = useState(item.location)
   const [desc] = useState(item.desc ? item.desc : ``)

@@ -826,7 +826,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="alert_description" translatable="false">Alert</string>
-    <string name="app_name">scms</string>
+    <string name="app_name">SCMS</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="button_description" translatable="false">Button</string>
@@ -884,7 +884,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id" translatable="false">320889291290-oq2iojvs7r5np0r1v5su3nberc1temrh.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">253947457160-qjpqplhakbqeln27bopsfu84ipeop05f.apps.googleusercontent.com</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
@@ -893,11 +893,11 @@
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="gcm_defaultSenderId" translatable="false">320889291290</string>
-    <string name="google_api_key" translatable="false">AIzaSyD7Xz9ILMDdk29CrdcUo8ev8VEApbax3NM</string>
-    <string name="google_app_id" translatable="false">1:320889291290:android:6dfa780ab3e314f1a487a3</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD7Xz9ILMDdk29CrdcUo8ev8VEApbax3NM</string>
-    <string name="google_storage_bucket" translatable="false">scms-6cbb9.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">253947457160</string>
+    <string name="google_api_key" translatable="false">AIzaSyB8L3HwNzBvjtvoKkHvhBATH9DMK8nWyLo</string>
+    <string name="google_app_id" translatable="false">1:253947457160:android:fd9ea7abfce8ff5376793d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB8L3HwNzBvjtvoKkHvhBATH9DMK8nWyLo</string>
+    <string name="google_storage_bucket" translatable="false">scms-ae6f5.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
@@ -947,6 +947,7 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
+    <string name="project_id" translatable="false">scms-ae6f5</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
     <string name="scrollbar_description" translatable="false">Scroll Bar</string>

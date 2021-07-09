@@ -62,7 +62,7 @@ const SignUpScreen = ({ navigation }) => {
           <Image
             // eslint-disable-next-line react-native/no-inline-styles
             style={{ width: 200, height: 200 }}
-            source={require(`../assets/scms-logo.jpeg`)}
+            source={require(`../assets/SCMS-logo.jpeg`)}
           />
           <Text style={styles.text}>Please Signup!</Text>
         </View>

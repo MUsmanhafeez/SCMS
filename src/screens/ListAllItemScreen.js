@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import React, { useEffect, useState } from 'react'
 import { useIsFocused } from '@react-navigation/native'
 import {
@@ -7,9 +8,13 @@ import {
   Platform,
   Linking,
   TouchableOpacity,
+  UIManager,
+  findNodeHandle,
 } from 'react-native'
 import { Button, Card, Paragraph } from 'react-native-paper'
 import firestore from '@react-native-firebase/firestore'
+import { Icon } from 'react-native-elements'
+import tw from 'tailwind-react-native-classnames'
 
 const ListItemScreen = ({ navigation, route }) => {
   const isFocused = useIsFocused()
@@ -50,12 +55,21 @@ const ListItemScreen = ({ navigation, route }) => {
         <View>
           <Card style={styles.card}>
             <Card.Title title={item.name} />
+            <TouchableOpacity style={tw`absolute z-20 top-4 right-1 h-16 w-10`}>
+              <Icon name="more-vert" size={25} color="#057094" />
+            </TouchableOpacity>
             <Card.Content>
               <Paragraph>{item.desc}</Paragraph>
             </Card.Content>
+            <Card.Cover
+              source={{ uri: item.image ? item.image : ` ` }}
+              style={{ display: item.image ? `flex` : `none` }}
+            />
             <Card.Actions>
               {/* <Button>{item.price}</Button> */}
-              <Button onPress={() => openDial(item.phone)}>call </Button>
+              <Button color={`#057094`} onPress={() => openDial(item.phone)}>
+                call{` `}
+              </Button>
               <View
                 style={{
                   marginLeft: `auto`,

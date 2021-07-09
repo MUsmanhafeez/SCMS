@@ -10,8 +10,9 @@ import {
 import auth from '@react-native-firebase/auth'
 import firestore from '@react-native-firebase/firestore'
 import { Avatar, Button, Card, Title, Paragraph } from 'react-native-paper'
-import OptionsMenu from 'react-native-option-menu'
-const MoreIcon = require(`../../assets/more/more.png`)
+import { Icon } from 'react-native-elements'
+import uuid from 'react-native-uuid'
+import tw from 'tailwind-react-native-classnames'
 
 const AccountScreen = ({ navigation }) => {
   const [items, setItems] = useState([])
@@ -50,6 +51,9 @@ const AccountScreen = ({ navigation }) => {
         <View>
           <Card style={styles.card}>
             <Card.Title title={item.name} />
+            <TouchableOpacity style={tw`absolute z-20 top-4 right-1 h-16 w-10`}>
+              <Icon name="more-vert" size={25} color="#057094" />
+            </TouchableOpacity>
             <Card.Content>
               <Paragraph>{item.desc}</Paragraph>
             </Card.Content>
@@ -58,7 +62,9 @@ const AccountScreen = ({ navigation }) => {
               style={{ display: item.image ? `flex` : `none` }}
             />
             <Card.Actions>
-              <Button onPress={() => openDial(item.phone)}>call </Button>
+              <Button color={`#057094`} onPress={() => openDial(item.phone)}>
+                call{` `}
+              </Button>
               <View
                 style={{
                   marginLeft: `auto`,
@@ -93,7 +99,7 @@ const AccountScreen = ({ navigation }) => {
       </View>
       <FlatList
         data={items}
-        keyExtractor={item => item.phone}
+        keyExtractor={items.id}
         renderItem={({ item }) => renderItem(item)}
         onRefresh={() => {
           setLoading(true)
