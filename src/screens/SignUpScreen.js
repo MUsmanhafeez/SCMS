@@ -17,6 +17,7 @@ import firestore from '@react-native-firebase/firestore'
 import messaging from '@react-native-firebase/messaging'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import tw from 'tailwind-react-native-classnames'
+import { firebase } from '../../firebase/config'
 
 const SignUpScreen = ({ navigation }) => {
   const [firstname, setFirstName] = useState(``)
@@ -29,16 +30,49 @@ const SignUpScreen = ({ navigation }) => {
   const [isPasswordView, setIsPasswordView] = useState(true)
   const [isConfirmPasswordView, setIsConfirmPasswordView] = useState(true)
 
+  // const onRegisterPress = () => {
+  //   if (password !== confirmpassword) {
+  //     alert(`Passwords don't match.`)
+  //     return
+  //   }
+  //   firebase
+  //     .auth()
+  //     .createUserWithEmailAndPassword(email, password)
+  //     .then(response => {
+  //       const uid = response.user.uid
+  //       const data = {
+  //         id: uid,
+  //         email,
+  //         fullName,
+  //       }
+  //       const usersRef = firebase.firestore().collection(`users`)
+  //       usersRef
+  //         .doc(uid)
+  //         .set(data)
+  //         .then(() => {
+  //           navigation.navigate(`Home`, { user: data })
+  //         })
+  //         .catch(error => {
+  //           alert(error)
+  //         })
+  //     })
+  //     .catch(error => {
+  //       alert(error)
+  //     })
+  // }
+
   const userSignup = async () => {
-    if (!email || !password || !confirmpassword) {
+    if (!firstname || !lastname || !email || !password || !confirmpassword) {
       Alert.alert(`please fill all the fields`)
       return
     }
     try {
       const result = await auth().createUserWithEmailAndPassword(
+        // firstname,
+        // lastname,
         email,
         password,
-        confirmpassword,
+        // confirmpassword,
       )
 
       messaging()
@@ -146,6 +180,7 @@ const SignUpScreen = ({ navigation }) => {
             keyboardType="numeric"
             onChangeText={text => setPhone(text)}
           />
+          {/* <TouchableOpacity onPress={() => onRegisterPress()}>> */}
           <Button
             style={styles.box3}
             mode="contained"
@@ -153,6 +188,7 @@ const SignUpScreen = ({ navigation }) => {
           >
             Signup
           </Button>
+          {/* </TouchableOpacity> */}
 
           {/* <TouchableOpacity onPress={()=>navigation.goBack()}>
                      <Text>login?</Text>
