@@ -9,17 +9,19 @@ import {
 import { TextInput, Button } from 'react-native-paper'
 import firestore from '@react-native-firebase/firestore'
 import auth from '@react-native-firebase/auth'
+import * as _ from 'lodash'
 
 const MasjidScreen = ({ navigation, route }) => {
   const { item } = route.params
-  console.log(item)
   const [name] = useState(item.name)
   const [iName] = useState(item.iName ? item.iName : ``)
   const [location] = useState(item.location)
   const [desc] = useState(item.desc ? item.desc : ``)
   const [createdAt] = useState(item.createdAt ? item.createdAt : ``)
   const [phone] = useState(item.phone)
-  const [totalAmount] = useState(item.totalAmount ? item.totalAmount : 0)
+  const [totalAmount, setTotalAmount] = useState(
+    item.totalAmount ? item.totalAmount : 0,
+  )
   const [addedAmount, setAddedAmount] = useState(0)
   const [members, setMembers] = useState([])
   const [docId, setDocId] = useState(``)
@@ -40,12 +42,6 @@ const MasjidScreen = ({ navigation, route }) => {
   const postData = async () => {
     try {
       const b = totalAmount + addedAmount
-      const isMember = members.includes(auth().currentUser.uid)
-      !isMember && members.push(auth().currentUser.uid)
-      const a = {
-        totalAmount: b,
-        ...(!members.includes(auth().currentUser.uid) && { members }),
-      }
 
       await firestore()
         .collection(`ads`)
@@ -53,13 +49,15 @@ const MasjidScreen = ({ navigation, route }) => {
         .update({
           totalAmount: b,
         })
-      !isMember &&
-        (await firestore()
-          .collection(`ads`)
-          .doc(docId)
-          .update({
-            totalAmount: b,
-          }))
+      setTotalAmount(b)
+      setAddedAmount(0)
+      const dummyArray = _.cloneDeep(members) || []
+      dummyArray?.push(auth().currentUser.uid)
+      setMembers(dummyArray)
+      await firestore()
+        .collection(`ads`)
+        .doc(docId)
+        .update({ members: dummyArray })
 
       Alert.alert(`posted your Ad!`)
     } catch (err) {

@@ -53,7 +53,6 @@ const CreateAdScreen = () => {
   //         const userDevicetoken = querySnap.docs.map(docSnap => {
   //           return docSnap.data().token;
   //         });
-  //         console.log('userDevicetoken');
   //         fetch('/send-noti', {
   //           method: 'post',
   //           headers: {

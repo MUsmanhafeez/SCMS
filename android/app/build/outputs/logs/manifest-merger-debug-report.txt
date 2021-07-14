@@ -10,6 +10,7 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/usman/.gr
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/usman/.gradle/caches/transforms-2/files-2.1/c02d4d7db539412ee6d5e9e7455f76bf/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-community_checkbox] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_viewpager] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/viewpager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_auth] /home/usman/Documents/project/SCMS/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:react-native-firebase_firestore] /home/usman/Documents/project/SCMS/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-firebase_messaging] /home/usman/Documents/project/SCMS/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-45:12
@@ -17,6 +18,7 @@ MERGED from [:react-native-firebase_storage] /home/usman/Documents/project/SCMS/
 MERGED from [:react-native-firebase_app] /home/usman/Documents/project/SCMS/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/usman/Documents/project/SCMS/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] /home/usman/Documents/project/SCMS/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-pager-view] /home/usman/Documents/project/SCMS/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/usman/Documents/project/SCMS/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/usman/Documents/project/SCMS/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /home/usman/Documents/project/SCMS/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -54,6 +56,7 @@ MERGED from [androidx.browser:browser:1.3.0] /home/usman/.gradle/caches/transfor
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/34509534d074f4a2ee4310c9df995de5/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/6825810b1265af64127a63ce937f0eb6/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/1c7b30d600fe1b4a44f027f3958914d0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/55f8666bacaf9775715d5fb652b1d6ac/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/usman/.gradle/caches/transforms-2/files-2.1/1ce7938adb8e1cb498704285ea71f43a/jetified-firebase-auth-20.0.3/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-storage:19.2.2] /home/usman/.gradle/caches/transforms-2/files-2.1/dd47db613d699db716e899df355b5cb5/jetified-firebase-storage-19.2.2/AndroidManifest.xml:15:1-39:12
@@ -73,15 +76,14 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/usman/.gra
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/0822991280790cfde605f8efd4f4809b/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/usman/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/55f8666bacaf9775715d5fb652b1d6ac/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /home/usman/.gradle/caches/transforms-2/files-2.1/e084e851385925ebf3e7b97973749a94/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/e48ee18ed306833f7c2f5916a08b080b/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/5d3192adb20d9bf386886018ccfc00f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/ad09b2bf354189389ed499a6ad227b85/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/f7437b3c59bfacbdc85523d95b7efaf7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/d68c2dd6c559e1e09125f815ea6604d1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/245aaa699df46d41a171a57f451b218d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/a7be23e3d6060c7a238407ac72287496/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/ad09b2bf354189389ed499a6ad227b85/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/5790aed02e41a3a72b215a908fdf5919/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/685a429b7b460b1102cbd40dc6ffb21c/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/6e251e626ddee01f89e2773cf95b32aa/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -271,6 +273,8 @@ MERGED from [:react-native-community_checkbox] /home/usman/Documents/project/SCM
 MERGED from [:react-native-community_checkbox] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_viewpager] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/viewpager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_viewpager] /home/usman/Documents/project/SCMS/node_modules/@react-native-community/viewpager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_auth] /home/usman/Documents/project/SCMS/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_auth] /home/usman/Documents/project/SCMS/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_firestore] /home/usman/Documents/project/SCMS/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -285,6 +289,8 @@ MERGED from [:react-native-gesture-handler] /home/usman/Documents/project/SCMS/n
 MERGED from [:react-native-gesture-handler] /home/usman/Documents/project/SCMS/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] /home/usman/Documents/project/SCMS/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] /home/usman/Documents/project/SCMS/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pager-view] /home/usman/Documents/project/SCMS/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pager-view] /home/usman/Documents/project/SCMS/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-safe-area-context] /home/usman/Documents/project/SCMS/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /home/usman/Documents/project/SCMS/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/usman/Documents/project/SCMS/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -359,6 +365,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/usman/
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/6825810b1265af64127a63ce937f0eb6/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/1c7b30d600fe1b4a44f027f3958914d0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/1c7b30d600fe1b4a44f027f3958914d0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/55f8666bacaf9775715d5fb652b1d6ac/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/55f8666bacaf9775715d5fb652b1d6ac/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/usman/.gradle/caches/transforms-2/files-2.1/1ce7938adb8e1cb498704285ea71f43a/jetified-firebase-auth-20.0.3/AndroidManifest.xml:21:5-44
@@ -397,14 +405,14 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/us
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/0822991280790cfde605f8efd4f4809b/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/usman/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/usman/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/55f8666bacaf9775715d5fb652b1d6ac/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/55f8666bacaf9775715d5fb652b1d6ac/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.1] /home/usman/.gradle/caches/transforms-2/files-2.1/e084e851385925ebf3e7b97973749a94/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.1] /home/usman/.gradle/caches/transforms-2/files-2.1/e084e851385925ebf3e7b97973749a94/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/e48ee18ed306833f7c2f5916a08b080b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/e48ee18ed306833f7c2f5916a08b080b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/5d3192adb20d9bf386886018ccfc00f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/5d3192adb20d9bf386886018ccfc00f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/ad09b2bf354189389ed499a6ad227b85/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/ad09b2bf354189389ed499a6ad227b85/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/f7437b3c59bfacbdc85523d95b7efaf7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/f7437b3c59bfacbdc85523d95b7efaf7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/d68c2dd6c559e1e09125f815ea6604d1/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -413,8 +421,6 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /home/usman/.gradle/caches/tran
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/245aaa699df46d41a171a57f451b218d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/a7be23e3d6060c7a238407ac72287496/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/a7be23e3d6060c7a238407ac72287496/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/ad09b2bf354189389ed499a6ad227b85/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/usman/.gradle/caches/transforms-2/files-2.1/ad09b2bf354189389ed499a6ad227b85/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/5790aed02e41a3a72b215a908fdf5919/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /home/usman/.gradle/caches/transforms-2/files-2.1/5790aed02e41a3a72b215a908fdf5919/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.2.0] /home/usman/.gradle/caches/transforms-2/files-2.1/685a429b7b460b1102cbd40dc6ffb21c/transition-1.2.0/AndroidManifest.xml:20:5-22:41

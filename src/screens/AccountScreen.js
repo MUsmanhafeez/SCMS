@@ -6,29 +6,60 @@ import {
   StyleSheet,
   TouchableOpacity,
   Linking,
+  useWindowDimensions,
 } from 'react-native'
 import auth from '@react-native-firebase/auth'
 import firestore from '@react-native-firebase/firestore'
-import { Avatar, Button, Card, Title, Paragraph } from 'react-native-paper'
+import { Button, Card, Paragraph } from 'react-native-paper'
 import { Icon } from 'react-native-elements'
-import uuid from 'react-native-uuid'
 import tw from 'tailwind-react-native-classnames'
+import { ScrollView } from 'react-native-gesture-handler'
+import { TabView, SceneMap } from 'react-native-tab-view'
 
 const AccountScreen = ({ navigation }) => {
-  const [items, setItems] = useState([])
+  const [ownerItems, setOwnerItems] = useState([])
+  const [memberItems, setMemberItems] = useState([])
+
   const [loading, setLoading] = useState(false)
+  const [index, setIndex] = React.useState(0)
+
+  // const data = [
+  //   {
+  //     value: `0`,
+  //     label: `Owner`,
+  //     checked: ownerItems,
+  //   },
+  //   {
+  //     value: `1`,
+  //     label: `Member`,
+  //   },
+  // ]
 
   const getDetails = async () => {
     const querySnap = await firestore()
       .collection(`ads`)
-      .where(`owner`, `==`, auth().currentUser.uid)
+
       .get()
+    const userId = auth().currentUser.uid
     const result = querySnap.docs.map(docSnap => docSnap.data())
-    setItems(result)
+    const owner = []
+    const member = []
+    for (const item of result) {
+      if (item.owner === userId) {
+        owner.push(item)
+      } else if (item.members?.includes(userId)) {
+        member.push(item)
+      }
+    }
+    setOwnerItems(owner)
+    setMemberItems(member)
   }
+  const layout = useWindowDimensions()
   useEffect(() => {
     getDetails()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
   const openDial = phone => {
     // eslint-disable-next-line no-undef
     if (Platform.OS === `android`) {
@@ -45,6 +76,7 @@ const AccountScreen = ({ navigation }) => {
       navigation.navigate(`masjidScreen`, { item })
     }
   }
+
   const renderItem = item => {
     return (
       <TouchableOpacity onPress={() => handlePostClick(item)}>
@@ -52,7 +84,12 @@ const AccountScreen = ({ navigation }) => {
           <Card style={styles.card}>
             <Card.Title title={item.name} />
             <TouchableOpacity style={tw`absolute z-20 top-4 right-1 h-16 w-10`}>
-              <Icon name="more-vert" size={25} color="#057094" />
+              <Icon
+                name="more-vert"
+                size={25}
+                color="#057094"
+                // onPress={() => dropdownclick}
+              />
             </TouchableOpacity>
             <Card.Content>
               <Paragraph>{item.desc}</Paragraph>
@@ -82,11 +119,51 @@ const AccountScreen = ({ navigation }) => {
     )
   }
 
+  const MembersData = () => {
+    return (
+      <FlatList
+        data={memberItems}
+        keyExtractor={memberItems.id}
+        renderItem={({ item }) => renderItem(item)}
+        onRefresh={() => {
+          setLoading(true)
+          getDetails()
+          setLoading(false)
+        }}
+        refreshing={loading}
+      />
+    )
+  }
+
+  const OwnerData = () => {
+    return (
+      <FlatList
+        data={ownerItems}
+        keyExtractor={ownerItems.id}
+        renderItem={({ item }) => renderItem(item)}
+        onRefresh={() => {
+          setLoading(true)
+          getDetails()
+          setLoading(false)
+        }}
+        refreshing={loading}
+      />
+    )
+  }
+
+  const [routes] = React.useState([
+    { key: `first`, title: `Owner` },
+    { key: `second`, title: `Member` },
+  ])
+  const renderScene = SceneMap({
+    first: OwnerData,
+    second: MembersData,
+  })
   return (
     <View style={{ flex: 1 }}>
       <View
         style={{
-          height: `20%`,
+          height: `12%`,
           justifyContent: `space-between`,
           alignItems: `center`,
         }}
@@ -97,16 +174,20 @@ const AccountScreen = ({ navigation }) => {
         </Button>
         <Text style={{ fontSize: 22 }}>Your Ads!</Text>
       </View>
-      <FlatList
-        data={items}
-        keyExtractor={items.id}
-        renderItem={({ item }) => renderItem(item)}
-        onRefresh={() => {
-          setLoading(true)
-          getDetails()
-          setLoading(false)
-        }}
-        refreshing={loading}
+      {/* <ChonseSelect
+          height={35}
+          style={{ marginLeft: 20, marginBottom: 10 }}
+          data={data}
+          initValue={`0`}
+          onPress={item => this.setState({ gender: item.value })}
+        > */}
+
+      <TabView
+        style={tw`mt-5`}
+        navigationState={{ index, routes }}
+        renderScene={renderScene}
+        onIndexChange={setIndex}
+        initialLayout={{ width: layout.width }}
       />
     </View>
   )

@@ -121,10 +121,6 @@ const TabNavigator = () => {
           )
         },
       })}
-      tabBarOptions={{
-        activeTintColor: `deepskyblue`,
-        inactiveTintColor: `gray`,
-      }}
     >
       <Tab.Screen
         name="HomeScreen"
