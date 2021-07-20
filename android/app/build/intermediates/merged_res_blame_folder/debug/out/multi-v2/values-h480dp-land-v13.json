@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/usman/Documents/project/SCMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "/home/usman/Documents/project/Mobile App/SCMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
                     "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/121c1b7561d49d1b372ceeda497bdd1c/material-1.1.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",

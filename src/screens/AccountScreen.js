@@ -13,7 +13,6 @@ import firestore from '@react-native-firebase/firestore'
 import { Button, Card, Paragraph } from 'react-native-paper'
 import { Icon } from 'react-native-elements'
 import tw from 'tailwind-react-native-classnames'
-import { ScrollView } from 'react-native-gesture-handler'
 import { TabView, SceneMap } from 'react-native-tab-view'
 
 const AccountScreen = ({ navigation }) => {
