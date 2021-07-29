@@ -11,7 +11,6 @@ import {
 import auth from '@react-native-firebase/auth'
 import firestore from '@react-native-firebase/firestore'
 import { Button, Card, Paragraph } from 'react-native-paper'
-import { Icon } from 'react-native-elements'
 import tw from 'tailwind-react-native-classnames'
 import { TabView, SceneMap } from 'react-native-tab-view'
 
@@ -21,18 +20,6 @@ const AccountScreen = ({ navigation }) => {
 
   const [loading, setLoading] = useState(false)
   const [index, setIndex] = React.useState(0)
-
-  // const data = [
-  //   {
-  //     value: `0`,
-  //     label: `Owner`,
-  //     checked: ownerItems,
-  //   },
-  //   {
-  //     value: `1`,
-  //     label: `Member`,
-  //   },
-  // ]
 
   const getDetails = async () => {
     const querySnap = await firestore()
@@ -82,14 +69,14 @@ const AccountScreen = ({ navigation }) => {
         <View>
           <Card style={styles.card}>
             <Card.Title title={item.name} />
-            <TouchableOpacity style={tw`absolute z-20 top-4 right-1 h-16 w-10`}>
+            {/* <TouchableOpacity style={tw`absolute z-20 top-4 right-1 h-16 w-10`}>
               <Icon
                 name="more-vert"
                 size={25}
                 color="#057094"
                 // onPress={() => dropdownclick}
               />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <Card.Content>
               <Paragraph>{item.desc}</Paragraph>
             </Card.Content>
@@ -108,7 +95,7 @@ const AccountScreen = ({ navigation }) => {
               >
                 <Paragraph style={{ alignSelf: `flex-end` }}>
                   {item.createdAt &&
-                    item.createdAt.toDate().toLocaleTimeString(`en-US`)}
+                    item.createdAt.toDate().toLocaleDateString(`en-US`)}
                 </Paragraph>
               </View>
             </Card.Actions>

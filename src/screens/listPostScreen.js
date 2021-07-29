@@ -20,7 +20,7 @@ const ListPostScreen = ({ route }) => {
   const [phone, setPhone] = useState(item.phone)
   const [members, setMembers] = useState([])
   const [docId, setDocId] = useState(``)
-  const [isOwner, setIsOwner] = useState(item.owner === auth().currentUser.uid)
+  const [isOwner] = useState(item.owner === auth().currentUser.uid)
 
   const postData = async () => {
     try {

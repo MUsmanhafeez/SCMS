@@ -12,7 +12,6 @@ import {
 } from 'react-native'
 import { TextInput, Button } from 'react-native-paper'
 import auth from '@react-native-firebase/auth'
-import LinearGradient from 'react-native-linear-gradient'
 import firestore from '@react-native-firebase/firestore'
 import messaging from '@react-native-firebase/messaging'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
@@ -29,37 +28,6 @@ const SignUpScreen = ({ navigation }) => {
 
   const [isPasswordView, setIsPasswordView] = useState(true)
   const [isConfirmPasswordView, setIsConfirmPasswordView] = useState(true)
-
-  // const onRegisterPress = () => {
-  //   if (password !== confirmpassword) {
-  //     alert(`Passwords don't match.`)
-  //     return
-  //   }
-  //   firebase
-  //     .auth()
-  //     .createUserWithEmailAndPassword(email, password)
-  //     .then(response => {
-  //       const uid = response.user.uid
-  //       const data = {
-  //         id: uid,
-  //         email,
-  //         fullName,
-  //       }
-  //       const usersRef = firebase.firestore().collection(`users`)
-  //       usersRef
-  //         .doc(uid)
-  //         .set(data)
-  //         .then(() => {
-  //           navigation.navigate(`Home`, { user: data })
-  //         })
-  //         .catch(error => {
-  //           alert(error)
-  //         })
-  //     })
-  //     .catch(error => {
-  //       alert(error)
-  //     })
-  // }
 
   const userSignup = async () => {
     if (!firstname || !lastname || !email || !password || !confirmpassword) {

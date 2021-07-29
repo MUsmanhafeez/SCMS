@@ -9,7 +9,7 @@ import {
 } from 'react-native'
 import { TextInput, Button } from 'react-native-paper'
 import firestore from '@react-native-firebase/firestore'
-import { launchCamera } from 'react-native-image-picker'
+import { launchCamera, launchImageLibrary } from 'react-native-image-picker'
 import storage from '@react-native-firebase/storage'
 import uuid from 'react-native-uuid'
 import { CheckBoxGroup } from '../component/checkBoxGroup'
@@ -120,6 +120,33 @@ const CreateAdScreen = () => {
       )
     })
   }
+  const openGallery = () => {
+    launchImageLibrary({ quality: 0.5 }, fileobj => {
+      const uploadTask = storage()
+        .ref()
+        .child(`/items/${Date.now()}`)
+        .putFile(fileobj.uri)
+
+      uploadTask.on(
+        `state_changed`,
+        snapshot => {
+          const progress =
+            (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+          if (progress === 100) {
+            Alert.alert(`uploaded`)
+          }
+        },
+        () => {
+          Alert.alert(`something went wrong`)
+        },
+        () => {
+          uploadTask.snapshot.ref.getDownloadURL().then(downloadURL => {
+            setImage(downloadURL)
+          })
+        },
+      )
+    })
+  }
   return (
     <ScrollView>
       <KeyboardAvoidingView style={styles.container}>
@@ -190,8 +217,20 @@ const CreateAdScreen = () => {
             mode="contained"
             onPress={() => openCamera()}
           >
-            upload Image
+            Open Camera
           </Button>
+        )}
+        {!isMasjid && (
+          <View>
+            <Button
+              style={styles.btn1}
+              icon="image"
+              mode="contained"
+              onPress={() => openGallery()}
+            >
+              Choose Image from Gallery
+            </Button>
+          </View>
         )}
         <Button
           style={styles.btn1}

@@ -55,9 +55,9 @@ const ListItemScreen = ({ navigation, route }) => {
         <View>
           <Card style={styles.card}>
             <Card.Title title={item.name} />
-            <TouchableOpacity style={tw`absolute z-20 top-4 right-1 h-16 w-10`}>
+            {/* <TouchableOpacity style={tw`absolute z-20 top-4 right-1 h-16 w-10`}>
               <Icon name="more-vert" size={25} color="#057094" />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <Card.Content>
               <Paragraph>{item.desc}</Paragraph>
             </Card.Content>
