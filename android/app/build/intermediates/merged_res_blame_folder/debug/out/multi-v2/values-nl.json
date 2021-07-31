@@ -4,6 +4,23 @@
             "outputFile": "/home/usman/Documents/project/Mobile App/SCMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
+                    "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/e2a8145b13aff41b267b7347f6fbf9ca/jetified-ucrop-2.2.6-native/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,120,179",
+                        "endColumns": "64,58,54",
+                        "endOffsets": "115,174,229"
+                    },
+                    "to": {
+                        "startLines": "54,55,56",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "6330,6395,6454",
+                        "endColumns": "64,58,54",
+                        "endOffsets": "6390,6449,6504"
+                    }
+                },
+                {
                     "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/res/values-nl/values.xml",
                     "from": {
                         "startLines": "4",

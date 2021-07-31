@@ -11,6 +11,7 @@ import { TextInput, Button } from 'react-native-paper'
 import firestore from '@react-native-firebase/firestore'
 import auth, { firebase } from '@react-native-firebase/auth'
 import * as _ from 'lodash'
+import { SliderBox } from 'react-native-image-slider-box'
 const ListPostScreen = ({ route }) => {
   const { item } = route.params
   const [name, setName] = useState(item.name)
@@ -20,6 +21,8 @@ const ListPostScreen = ({ route }) => {
   const [phone, setPhone] = useState(item.phone)
   const [members, setMembers] = useState([])
   const [docId, setDocId] = useState(``)
+  const [isMasjid] = useState(item?.isMasjid)
+  const [images] = useState(item?.images ?? [])
   const [isOwner] = useState(item.owner === auth().currentUser.uid)
 
   const postData = async () => {
@@ -128,6 +131,9 @@ const ListPostScreen = ({ route }) => {
           mode="outlined"
           keyboardType="numeric"
         />
+        {!isMasjid && (
+          <SliderBox sliderBoxHeight={200} parentWidth={332} images={images} />
+        )}
         {!isOwner && (
           <Button
             style={styles.btn1}

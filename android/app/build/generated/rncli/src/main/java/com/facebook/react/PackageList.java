@@ -29,6 +29,8 @@ import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-image-crop-picker
+import com.reactnative.ivpusic.imagepicker.PickerPackage;
 // react-native-image-picker
 import com.imagepicker.ImagePickerPackage;
 // react-native-linear-gradient
@@ -97,6 +99,7 @@ public class PackageList {
       new ReactNativeFirebaseMessagingPackage(),
       new ReactNativeFirebaseStoragePackage(),
       new RNGestureHandlerPackage(),
+      new PickerPackage(),
       new ImagePickerPackage(),
       new LinearGradientPackage(),
       new PagerViewPackage(),

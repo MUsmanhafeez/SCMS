@@ -62,8 +62,8 @@ const ListItemScreen = ({ navigation, route }) => {
               <Paragraph>{item.desc}</Paragraph>
             </Card.Content>
             <Card.Cover
-              source={{ uri: item.image ? item.image : ` ` }}
-              style={{ display: item.image ? `flex` : `none` }}
+              source={{ uri: item.images ? item.images[0] : ` ` }}
+              style={{ display: item.images ? `flex` : `none` }}
             />
             <Card.Actions>
               {/* <Button>{item.price}</Button> */}

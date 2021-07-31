@@ -81,8 +81,8 @@ const AccountScreen = ({ navigation }) => {
               <Paragraph>{item.desc}</Paragraph>
             </Card.Content>
             <Card.Cover
-              source={{ uri: item.image ? item.image : ` ` }}
-              style={{ display: item.image ? `flex` : `none` }}
+              source={{ uri: item.images ? item.images[0] : ` ` }}
+              style={{ display: item.images ? `flex` : `none` }}
             />
             <Card.Actions>
               <Button color={`#057094`} onPress={() => openDial(item.phone)}>
@@ -154,7 +154,9 @@ const AccountScreen = ({ navigation }) => {
           alignItems: `center`,
         }}
       >
-        <Text style={{ fontSize: 22 }}>{auth().currentUser.email}</Text>
+        <Text style={{ fontSize: 22, marginBottom: 10 }}>
+          {auth().currentUser.email}
+        </Text>
         <Button mode="contained" onPress={() => auth().signOut()}>
           LogOut
         </Button>
@@ -169,7 +171,7 @@ const AccountScreen = ({ navigation }) => {
         > */}
 
       <TabView
-        style={tw`mt-5`}
+        style={tw`mt-10`}
         navigationState={{ index, routes }}
         renderScene={renderScene}
         onIndexChange={setIndex}

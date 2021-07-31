@@ -55,6 +55,23 @@
                     }
                 },
                 {
+                    "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/e2a8145b13aff41b267b7347f6fbf9ca/jetified-ucrop-2.2.6-native/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,97,153,208,257,301",
+                        "endColumns": "41,55,54,48,43,42",
+                        "endOffsets": "92,148,203,252,296,339"
+                    },
+                    "to": {
+                        "startLines": "54,55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "5804,5846,5902,5957,6006,6050",
+                        "endColumns": "41,55,54,48,43,42",
+                        "endOffsets": "5841,5897,5952,6001,6045,6088"
+                    }
+                },
+                {
                     "source": "/home/usman/.gradle/caches/transforms-2/files-2.1/57b3d18b5aa7bf7156ab8ec9c22f1606/jetified-firebase-messaging-21.0.1/res/values-ja/values.xml",
                     "from": {
                         "startLines": "4",

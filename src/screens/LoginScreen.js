@@ -37,8 +37,8 @@ const LoginScreen = ({ navigation }) => {
         <View style={styles.box1}>
           <Image
             // eslint-disable-next-line react-native/no-inline-styles
-            style={{ width: 200, height: 200 }}
-            source={require(`../assets/SCMS-logo.jpeg`)}
+            style={{ width: 150, height: 150 }}
+            source={require(`../assets/logo.png`)}
           />
           <Text style={styles.text}>please login to continue!</Text>
         </View>
